@@ -4,6 +4,12 @@
   align-self: flex-end;
 }
 
+@media screen and (max-width: 767px) {
+  .cart-summary-container {
+    align-self: stretch;
+  }
+}
+
 .order-total-value {
   color: #171f46;
   font-family: 'Roboto';
@@ -59,13 +65,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .d-sm-none {
-    display: none;
+  .cart-summary {
+    align-self: flex-end;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .d-lg-none {
-    display: none;
+@media screen and (max-width: 350px) {
+  .cart-summary {
+    align-self: center;
   }
 }
